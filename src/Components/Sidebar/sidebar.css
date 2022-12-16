@@ -1,0 +1,73 @@
+.sidebar-container{
+margin:1.25rem;
+margin-left: 10px;
+margin-right: 10px;
+
+}
+
+.sidebar-row {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 3px;
+
+  }
+
+  .sidebar-col{
+    display:grid;
+    grid-row-gap:10px;
+    border-radius: 2px;
+  }
+
+  .sidebar-category-title{
+    background-color: rgb(162, 159, 159);
+    font-weight:600;
+    padding:0;
+   text-align: center;
+   padding:0.15rem;
+   font-weight: 600;
+   border-radius: 3px;
+  }
+
+  .subCategories{
+
+  }
+
+  .sidebar-subcat-btn{
+    background-color: white;
+    border: none;
+    width: 100%;
+    padding: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+
+  .sidebar-subcat-btn:hover{
+    background-color: rgb(180, 174, 174);
+
+  }
+  .sidebar-subcat-click-btn{
+    background-color: aquamarine;
+    border: none;
+    width: 100%;
+    padding: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+
+  .subCategories ul{
+    list-style: none;
+    margin: 8px 8px;
+    padding: 0;
+  }
+
+  .subCategories ul li{
+
+    text-align: left;
+    margin:6px 1px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    border-radius: 3px;
+
+  }
+

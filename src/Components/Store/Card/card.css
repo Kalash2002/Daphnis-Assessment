@@ -1,0 +1,87 @@
+.single-card{
+    border:1px solid black;
+
+    /* grid-gap: 50px; */
+    margin: 0 0.25rem;
+    border-radius:0.2rem;
+    width: 380px;
+ }
+
+ .card{
+    padding:0.5rem;
+
+ }
+
+ .card-image img{
+   object-fit: fill;
+   display: flex;
+   align-items: center;
+   margin: 0;
+   padding:3px 3px;
+ }
+
+ .card-details-title{
+   text-align: center;
+   font-weight: 600;
+   margin: 0;
+   padding: 0;
+ }
+
+ .card-details-title h3{
+    margin: 10px 10px;
+ }
+
+ .card-details-price{
+   text-align: center;
+   padding-bottom:5px ;
+   padding-top: 0;
+   margin-top: 0;
+ }
+
+ .card-details address{
+   text-align: center;
+
+ }
+
+ .company-name{
+   text-align: center;
+   font-weight: 500;
+ }
+
+ .company-add{
+   text-align: center;
+   text-transform: uppercase;
+   font-size: 13px;
+ }
+ .divid-line{
+   margin: 0;
+ }
+
+.send-logo{
+   width: 30px;
+   height: 30px;
+
+}
+
+.contact-content{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+justify-content: center;
+padding:0.5rem;
+}
+
+.supplier-contact{
+   margin: 0;
+}
+
+.color-heading{
+margin: 0 0;
+padding: 1px;
+border-radius: 20px;
+}
+
+.color-div{
+   border-radius: 0.2rem;
+}
+

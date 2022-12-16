@@ -1,0 +1,89 @@
+
+.navbar{
+width: 100%;
+display: flex;
+align-items: center;
+background-color: #b82c10;
+margin-bottom: 5px;
+}
+
+.nav-title{
+    font-size: 20px;
+    margin-left: 2rem;
+    font-weight: 500;
+    color: aliceblue;
+
+}
+
+.logo{
+    width: 20%;
+    margin-left: 2rem;
+}
+
+.logo img{
+    width: 40%;
+    height: 80%;
+}
+
+.navbarItem{
+    width:60%;
+   padding-left: 9%;
+   padding-right: 9%;
+    align-items: center;
+    display: flex;
+}
+
+.navbarItem ul{
+    font-size: 15px;
+text-decoration: none;
+list-style-type:none;
+text-transform: uppercase;
+display: flex;
+gap: 50px;
+align-items: center;
+}
+
+.navbarItem ul li Link{
+    cursor: pointer;
+    text-decoration: none;
+    color: rgb(252, 250, 250);
+
+}
+
+
+.userProfile{
+    display: flex;
+    text-transform: uppercase;
+    width: 11%;
+    justify-content: space-evenly;
+    margin-right: 1rem;
+    align-items: center;
+}
+.login-btn{
+    border: none;
+    background-color: #109fb8;
+    text-transform: uppercase;
+}
+
+
+@media only screen and (min-width:890px) and (max-width: 1059px){
+
+    .userProfile{
+        width: 18%;
+        justify-content: center;
+    }
+}
+
+@media only screen and (min-width: 800px) and (max-width:890px)
+{
+    .logo{
+        width: 50%;
+    }
+    .navbarItem{
+        width: 50%;
+    }
+    .userProfile{
+        width:50%;
+        justify-content: center;
+    }
+}

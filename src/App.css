@@ -36,3 +36,15 @@
     transform: rotate(360deg);
   }
 }
+
+.sidebar{
+  width:15vw;
+}
+
+.producttab{
+  margin:1.25rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap:40px;
+  grid-row-gap:20px;
+}
